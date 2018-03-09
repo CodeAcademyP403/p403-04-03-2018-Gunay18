@@ -1,0 +1,138 @@
+* {box-sizing: border-box; margin:0px; padding: 0px;}
+body{
+    color: #28292b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/forest.jpg);
+    font-family: sans-serif;
+}
+body .container{
+    position: absolute;
+    width: 94%;
+    background-color: white;
+    top: 2%;
+    left: 3%;
+    padding: 2% 5%;
+}
+ .container #leftArrow{
+    position: absolute;
+    left: 2%;
+    top: 37%;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.container #rightArrow{
+    position: absolute;
+    right: 2%;
+    top: 37%;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.clearfix{
+    clear: both;
+}
+body .container nav{
+    text-align: center;
+}
+.container nav ul li a{
+    text-decoration: none;
+    color: #28292b;
+}
+.container nav ul li a:hover{
+    color: #56c7c0;
+}
+.container nav h1{
+    font-size: 45px; 
+    font-weight: normal;
+    margin-bottom: 0.5%;
+}
+.container nav p{
+    margin-bottom: 2%;
+}
+body .container nav li{
+    margin-right: 2%;
+    list-style-type: none;
+    display: inline-block;
+}
+.container nav .space{
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.container header .space{
+    margin-bottom: 4%;
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+}
+header .left{
+    float: left;
+    width: 73%;
+    height: 250px;
+    background-image: url(../images/photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header .right{
+    padding: 0% 3%;
+    float: left;
+    width: 27%;
+    height: 300px;
+}
+header .right h1{
+    font-weight: normal;
+}
+header .right p{
+    margin: 6% 0%;
+    line-height: 140%;
+}
+header .right button{
+    color: white;
+    background-color: #56c7c0;
+    font-size: 16px;
+    padding: 4%;
+    cursor: pointer;
+}
+section .left{
+    text-align: center;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    height: 300px;
+    background-image: url(../images/road.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .right{
+    text-align: center;
+    float: left;
+    width: 48%;
+    height: 300px;
+    background-image: url(../images/mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .left *, section .right *{
+    top: 32%;
+    position: relative;
+    color: white;
+    margin-bottom: 3%;
+}
+section h1{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+section .space{
+    width: 100px;
+    border-top: 2px solid white;
+    margin: auto;
+    margin-bottom: 4%;
+}
+section pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}

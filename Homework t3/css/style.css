@@ -1,0 +1,107 @@
+* {box-sizing: border-box; margin:0px; padding: 0px;}
+nav .container{
+    margin: 0% 7%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    height: 70px;
+    padding: 2% 0%;
+}
+nav .container .navigation{
+    float: right;
+    width: 70%;
+}
+nav .container .navigation ul li{
+    float: right;
+    margin-right: 3%;
+}
+nav .container .navigation ul li#last{
+    margin-right: 0;
+}
+nav .container .navigation ul li#first{
+    padding: 0px 6px; 
+    border-right: 2px solid #6c6c6c;
+    border-left: 2px solid #6c6c6c;
+}
+nav .container .navigation ul li button{
+    background-color: #cb6f37;
+    color: white;
+    padding: 15%;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: -15%;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .container .navigation ul li a{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #6c6c6c;
+}
+nav .container .navigation ul li a:hover{
+    color: #cb6f37;
+}
+section{ 
+    position: relative;
+    height: 630px;
+    background-image: url(../images/bg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .container{
+    padding-left: 7%;
+   padding-top: 12%;
+}
+section .container h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+section .container h1, p{
+    margin-bottom: 2%;
+}
+section .container p, button{
+    color: rgba(0, 0, 0, 0.6);
+}
+section .container button{
+    padding: 1% 2%;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+section .border{
+    border-top: 4px solid rgba(128, 128, 128, 0.3);
+    width: 50%;
+}
+section #setting{
+    position: absolute;
+    top: 15%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(231, 230, 228, 0.17);
+    padding: 7px;
+    cursor: pointer;
+}
+section #circle1, #circle2, #circle3 {
+    position: absolute;
+    bottom: 3%;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+section #circle1{
+    left: 1%;
+}
+section #circle2{
+    left: 2.5%;
+}
+section #circle3{
+    left: 4%;
+}

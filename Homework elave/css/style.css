@@ -1,0 +1,89 @@
+* {box-sizing: border-box; margin:0px; padding: 0px;}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    height: 70px;
+    padding: 1.5% 3%;
+}
+nav .brand{
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+nav .brand span{
+    color: #469f86;
+}
+nav ul li{
+    float: right;
+    margin-right: 3%;
+}
+nav ul li.last{
+    margin-right: 0;
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: bold;
+    color:#878787;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:#469f86;
+}
+section{
+    position: relative;
+    padding-top: 12%;
+    padding-left: 1%;
+    height: 630px;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section .supsect{
+    width: 27%;
+    color: rgba(77, 75, 75, 0.84);
+}
+section .supsect h1{
+  text-transform: capitalize;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+}
+section .supsect h1, p{
+    margin-bottom: 8%;
+    line-height: 140%;
+}
+section .supsect button{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    padding: 3% 6%;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.8);
+    border-radius: 5%;
+}
+section .circle{
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: white;   
+    cursor: pointer;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.3);
+}
+section .circle:hover{
+    color: #469f86;
+}
+section .circles{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+}

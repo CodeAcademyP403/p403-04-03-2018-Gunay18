@@ -1,0 +1,146 @@
+* {box-sizing: border-box; 
+    margin:0px; 
+    padding: 0px;}
+
+.container{
+    width: 95%;
+    margin: 1.5% auto;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+header i#setting{
+    z-index: 1;
+    background-color: white;
+    padding: 5px;
+    font-size: 26px;
+    position: absolute;
+    left: 1%;
+    top:25%;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.32);
+}
+/* NAVIGATION */
+nav .container .navigation{
+    width: 50%;
+    height: 20px;
+    float: right;
+    margin-right: 0%;
+}
+nav .brend{
+    width: 50%;
+    height: 20px;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav .container .navigation ul{
+    width: 100%;
+    float: right;
+}
+nav .container .navigation ul li{
+    float: right;
+    margin-right: 5%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+nav .container .navigation ul li.last{
+    margin-right: 0%;  
+}
+nav .container ul li a{
+    color: #757a79;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav .container ul li a:hover{
+    color: #f6aa34;
+}
+
+nav .container ul li.first{
+    list-style-type: none;
+}
+/* END OF NAVIGATION */
+
+/* Header */
+header .container{
+    height: 500px;
+    background-image: url(../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+header .container h1{
+    font-size: 8em;
+    position: relative;
+    top: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+header .container h1 span{
+    color: #f6aa34;
+}
+header .container p{
+    position: relative;
+    top: 30%;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+}
+header .container i{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+}
+/* END OF HEADER */
+section .container{
+    width: 95%;
+    height: 400px;
+    background-color:#f9f9f9;
+    padding: 5% 4%;
+    padding-right: 0%;
+}
+section .container .text{
+    width: 20%;
+}
+section .container .text h5{
+    color: #cdcdcd;
+    text-transform: uppercase;
+}
+section .container .text h1{
+    color: rgba(0, 0, 0, 0.71);
+    font-size: 35px;
+}
+section .container .text p{
+    color: #888682;
+}
+section .container .text h5, h1, .space{
+    font-weight: normal;
+    margin-bottom: 4%;
+}
+section .container .text .space{
+    width: 20px;
+    border-top: 3px solid #f6aa34;
+
+}
+section .container .icon, .text{
+    width: 26.6%;
+    float: left;
+}
+section .container .icon i{
+    color:#f6aa34;
+    font-size: 55px;
+}
+section .container .icon{
+    text-align: center;
+    margin-top: 6%;
+}
+section .container .icon p{
+    text-transform: uppercase;
+    margin-top: 8%;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
